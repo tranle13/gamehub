@@ -4,7 +4,7 @@ import apiClient from "../services/api-client";
 
 interface FetchResponse<T> {
   count: number;
-  resutls: T[];
+  results: T[];
 }
 
 const useData = <T>(
